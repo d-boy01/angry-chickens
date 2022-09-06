@@ -5,13 +5,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Chickens</title>
+  <link rel="stylesheet" href="app.css">
 </head>
 <body>
 
-  <h1>Chicken!</h1>
-
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima aspernatur ullam voluptates dolor atque, suscipit ab hic molestiae vero perferendis maiores doloremque corrupti! At iste laborum voluptas maxime quod ut!
-  Quas, unde laudantium eius accusamus sit veniam similique recusandae alias fugiat, et architecto cupiditate voluptatum. Eligendi unde, aliquid possimus numquam voluptate beatae dolore alias quia, deleniti omnis accusamus quaerat perspiciatis!</p>
+  svg(viewBox="0 0 600 300")
+  symbol#s-text
+      text(text-anchor="middle", x="50%", y="50%", dy=".35em")
+        | THE GREAT ONE
+    use.text(xlink:href="#s-text")
+    use.text(xlink:href="#s-text")
+    use.text(xlink:href="#s-text")
+    use.text(xlink:href="#s-text")
+    use.text(xlink:href="#s-text")
   
 </body>
 </html>
